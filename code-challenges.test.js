@@ -23,7 +23,7 @@ const object3 = { number: -7 }
 
 describe("divByThree", () =>{
     it("takes an object as an argument and decides if the number inside is evenly divisible by three", () => {
-    expect(divByThree(object1.number)).ToEqual("15 is divisible by three")
+    expect(divByThree(object.)).ToEqual("15 is divisible by three")
     })
 })
 
